@@ -16,7 +16,7 @@
             bankAccount.Deposit(deposit);
             
             //Return deposit to console
-            Console.WriteLine(bankAccount.GetBalance());
+            Console.WriteLine($"Thank you! Your balance is now: {bankAccount.GetBalance()}");
         }
     }
 }
