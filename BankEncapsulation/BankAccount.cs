@@ -6,15 +6,15 @@ public class BankAccount
     private double _balance = 0;
 
     //Method to make a deposit
-    public double Deposit(double amount)
+    public void Deposit(double amount)
     {
-       return _balance += amount;
+       _balance += amount;
     }
     
     //Method to get balance
-    public void GetBalance()
+    public double GetBalance()
     {
-        Console.WriteLine($"Your Balance Is: {_balance}");
+       return _balance;
     }
     
     //Constructor
